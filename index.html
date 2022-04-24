@@ -15,41 +15,64 @@
 
 <body>
 
+
 	<h1>Search for pokemon by name</h1>
 	<input type="text" name="" value="">
 	<button type="button" name="button">CLICK ME</button>
 
+	<section class="cardContainer">
 
-	<section class="nameContainer container">
-		<h2>Name:</h2>
-		<h2 id="pokemonName"></h2>
-	</section>
+		<div class="nameAndHpContainer">
+			<section class="nameContainer container">
+				<h2 id="pokemonName"></h2>
+			</section>
+
+			<section class="hpContainer container">
+				<h2 id="pokemonHp"></h2>
+			</section>
+		</div>
 
 		<img src="" alt="pokemon picture">
 
 
-	<section class="idContainer container">
-		<h2>ID:</h2>
-		<h2 id="pokemonId"></h2>
+		<!-- <section class="idContainer container">
+				<h2>ID:</h2>
+				<h2 id="pokemonId"></h2>
+			</section> -->
+
+		<section class="typeContainer container">
+			<h2>Water</h2>
+			<h2 id="pokemonType"></h2>
+		</section>
+
+		<section class="abilityContainer container">
+			<div class="ability1Container">
+				<h2 id="ability1">Torrent</h2>
+			</div>
+			<div class="ability2Container">
+				<h2 id="ability2">Rain-dash</h2>
+			</div>
+		</section>
+
+
+		<section class="statsContainer container">
+
+			<div>
+			<h2>ATTACK</h2>
+			<h2 id="attack"></h2>
+		</div>
+		<div>
+			<h2>DEFENSE</h2>
+			<h2 id="defense"></h2>
+		</div>
+		<div>
+			<h2>SPEED</h2>
+			<h2 id="speed"></h2>
+		</div>
+		</section>
+
+
 	</section>
-
-	<section class="typeContainer container">
-		<h2>Type:</h2>
-		<h2 id="pokemonType"></h2>
-	</section>
-
-	<section class="abilityContainer container">
-		<h2>Starting Abilities:</h2>
-		<ul id="pokemonStartAbilities"></ul>
-	</section>
-
-
-	<section class="statsContainer container">
-		<h2>Stats:</h2>
-		<ul id="pokemonStats"></ul>
-	</section>
-
-
 
 
 

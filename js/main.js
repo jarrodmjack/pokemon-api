@@ -32,23 +32,33 @@ function getFetch(){
         
 
         // pokemon name
-        
+        console.log(data.name)
+        document.querySelector('#pokemonName').innerText = data.name.toUpperCase()
 
+        // pokemon HP
+        console.log(data.stats[0].base_stat)
+        let hp = data.stats[0].base_stat
+        document.querySelector('#pokemonHp').innerText = `${hp} HP`
 
         // pokemon img
         document.querySelector('img').src = data.sprites.other["official-artwork"].front_default
 
 
-        // pokemon id
-        console.log(data.id)
 
 
 
         // abilities
-        data.abilities.forEach((item, i) => {
-          console.log(item.ability.name)
-        })
+        console.log(data.abilities[0].ability.name)
+        console.log(data.abilities[1].ability.name)
+        // data.abilities.forEach((item, i) => {
+        //   console.log(item.ability.name)
+        // })
 
+
+        // pokemon stats (attack, def, speed)
+        console.log(data.stats[1].base_stat)
+        console.log(data.stats[2].base_stat)
+        console.log(data.stats[5].base_stat)
 
 
 

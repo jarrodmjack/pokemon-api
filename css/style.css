@@ -11,8 +11,9 @@
 /* LAYOUT
 /*******************************************/
 img{
-  display: block;
-  margin: 0 auto;
+  height: 265px;
+  width: 320px;
+  background-color: lightgray;
 }
 
 body{
@@ -20,6 +21,78 @@ body{
 }
 
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+
+
+
+/* card container styles */
+
+
+.cardContainer{
+  height: 700px;
+  width: 500px;
+  border: 15px solid rgb(204, 178, 30);
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  align-self: center;
+  border: 15px solid rgb(186, 162, 23);
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+
+
+/* main layout */
+
+
+.nameAndHpContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* type */
+
+.typeContainer{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/*abilities */
+
+.abilityContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .ability1Container{
+  
+} */
+
+
+
+.ability1Container,
+.ability2Container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+
+
+/* stats */
+.statsContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
