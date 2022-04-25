@@ -11,15 +11,25 @@
 	<!-- external CSS link -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
+
 
 <body>
 
 
-	<h1>Search for pokemon by name</h1>
-	<input type="text" name="" value="">
-	<button type="button" name="button">CLICK ME</button>
 
+	<div>
+		<h1>Search for pokemon by name</h1>
+		<div class="searchContainer">
+			<input type="text" name="" value="">
+			<button type="button" name="button">CLICK ME</button>
+		</div>
+	</div>
+	<section class="hidden">
 	<section class="cardContainer">
 
 		<div class="nameAndHpContainer">
@@ -41,39 +51,38 @@
 			</section> -->
 
 		<section class="typeContainer container">
-			<h2>Water</h2>
 			<h2 id="pokemonType"></h2>
 		</section>
 
 		<section class="abilityContainer container">
 			<div class="ability1Container">
-				<h2 id="ability1">Torrent</h2>
+				<h2 id="ability1"></h2>
 			</div>
 			<div class="ability2Container">
-				<h2 id="ability2">Rain-dash</h2>
+				<h2 id="ability2"></h2>
 			</div>
 		</section>
 
 
 		<section class="statsContainer container">
 
-			<div>
-			<h2>ATTACK</h2>
-			<h2 id="attack"></h2>
-		</div>
-		<div>
-			<h2>DEFENSE</h2>
-			<h2 id="defense"></h2>
-		</div>
-		<div>
-			<h2>SPEED</h2>
-			<h2 id="speed"></h2>
-		</div>
+			<div class="statsWrapper">
+				<h2>ATTACK</h2>
+				<h2 id="attack"></h2>
+			</div>
+			<div class="statsWrapper">
+				<h2>DEFENSE</h2>
+				<h2 id="defense"></h2>
+			</div>
+			<div class="statsWrapper">
+				<h2>SPEED</h2>
+				<h2 id="speed"></h2>
+			</div>
 		</section>
 
 
 	</section>
-
+</section>
 
 
 
