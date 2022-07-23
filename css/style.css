@@ -132,6 +132,8 @@ button {
 button:hover{
   cursor: pointer;
   opacity: .8;
+  border: 3px solid gold;
+
 }
 
 /* background colors
