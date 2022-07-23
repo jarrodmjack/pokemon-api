@@ -27,10 +27,6 @@ function getFetch(){
 
 
 
-
-  
-
-
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
@@ -152,4 +148,8 @@ if(hide.classList.contains('hidden')){
           console.log(`error ${err}`)
       });
 }
+
+
+
+
 
